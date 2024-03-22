@@ -11,6 +11,18 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'menu',
+    loadChildren: () => import('./menu/menu.module').then( m => m.MenuPageModule)
+  },
+  {
+    path: 'audio',
+    loadChildren: () => import('./audio/audio.module').then( m => m.AudioPageModule)
+  },
+  {
+    path: 'color',
+    loadChildren: () => import('./color/color.module').then( m => m.ColorPageModule)
+  },
 ];
 
 @NgModule({

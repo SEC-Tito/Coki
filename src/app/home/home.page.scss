@@ -25,3 +25,13 @@
 #container a {
   text-decoration: none;
 }
+.flex-parent {
+  display: flex;
+  padding: 20px;
+  
+}
+
+.flex-child1 {
+
+  border: 1px dotted black;
+}
