@@ -1,0 +1,7 @@
+{
+  "name": "Coki",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
