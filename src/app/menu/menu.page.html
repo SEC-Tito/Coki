@@ -1,13 +1,14 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>menu</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-
-  <ion-button [routerLink]="['/home']">Go to Home</ion-button>
-  <ion-button [routerLink]="['/color']">Go to color</ion-button>
-  <ion-button [routerLink]="['/audio']">Go to audio</ion-button>
+<ion-content>
+ <div class="divboton">
+  <button class="button" [routerLink]="['/home']">Go to Home 🏠</button>
+</div>
+<div class="divboton">
+  <button class="button" [routerLink]="['/color']">Go to view   👀</button>
+</div>
+<div class="divboton">
+  <button class="button" [routerLink]="['/audio']">Go to listening🧏
+  </button>
+</div>
+  
 
 </ion-content>

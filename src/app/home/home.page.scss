@@ -1,37 +1,55 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+*{
+  --background: linear-gradient(to bottom, #ffd700, #ff8c00);
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
-}
-.flex-parent {
+ion-content {
+  --background: url('/assets/Fondo2.jpg') no-repeat center center; 
+  background-size: cover;
   display: flex;
-  padding: 20px;
-  
+  justify-content: center;
+  align-items: center;
+  height: 100v;
 }
 
-.flex-child1 {
 
-  border: 1px dotted black;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.michi {
+  width: 150px;
+  height: auto;
+  background-color: transparent;
+  max-width: 100%;
+}
+
+.button {
+  cursor: pointer;
+  padding: 15px 40px 15px 40px;
+  border-radius: 10px;
+  border-style: double;
+  font-weight: 600;
+  background-image: linear-gradient(
+    rgb(54, 53, 53),
+    rgb(0, 0, 0),
+    rgb(54, 54, 54)
+  );
+  color: rgb(164, 164, 162);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-color: rgb(0, 0, 0);
+  transition: 400ms;
+}
+
+.button:hover {
+  transition: 400ms;
+  border-style: double;
+  border-color: rgb(208, 207, 207);
+  color: rgb(219, 216, 216);
+  font-size: 16px;
+  text-shadow: 1px 10px 5px rgb(61, 61, 61);
 }

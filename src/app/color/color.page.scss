@@ -1,0 +1,72 @@
+*{
+    --background: linear-gradient(to bottom, #ffd700, #ff8c00);
+  }
+ion-content {
+    --background: url('/assets/Fondo2.jpg') no-repeat center center; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100v;
+  }
+  .button {
+  
+    cursor: pointer;
+    padding: 15px 40px 15px 40px;
+    border-radius: 10px;
+    border-style: double;
+    font-weight: 600;
+    background-image: linear-gradient(
+      rgb(54, 53, 53),
+      rgb(0, 0, 0),
+      rgb(54, 54, 54)
+    );
+    color: rgb(164, 164, 162);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color: rgb(0, 0, 0);
+    transition: 400ms;
+  }
+
+
+
+
+ion-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: auto;
+    z-index: 1;
+}
+.table-row {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    padding: 0;
+}
+.table-row ion-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.custom-checkbox {
+    --size: 40px;
+  }
+  .button-container {
+  display: flex;
+  justify-content: flex-end;    
+  align-items: center;
+  width: 100%;
+  padding-right: 3rem; 
+  padding-top: 2rem;
+  }
+  .button-container ion-button {
+    font-family: 'Yatra One', sans-serif;
+  }
