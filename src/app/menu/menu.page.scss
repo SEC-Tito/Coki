@@ -9,6 +9,15 @@ ion-content {
     align-items: center;
     height: 100v;
   }
+  .logo {
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: auto;
+    z-index: 1;
+}
   .button {
   
     cursor: pointer;
@@ -25,6 +34,7 @@ ion-content {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-color: rgb(0, 0, 0);
     transition: 400ms;
+    margin-bottom: 2rem;
   }
   
   .button:hover {
@@ -35,12 +45,11 @@ ion-content {
     font-size: 16px;
     text-shadow: 1px 10px 5px rgb(61, 61, 61);
   }
-  .divboton{
-    display: flex; 
-    justify-content: center;
-    align-items: center; 
-    margin: 4rem;
-    display:   flex;
-    flex-direction: column;
-    
+  .divboton {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en columna */
+    justify-content: center; /* Centra verticalmente los elementos */
+    align-items: center;
+    margin: 1rem; /* Ajusta el margen según sea necesario */
+    height: 100%;
   }

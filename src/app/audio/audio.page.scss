@@ -15,7 +15,8 @@ ion-content {
     align-items: center;
     justify-content: center;
   }
-.logo {
+  .logo {
+    cursor: pointer;
     position: absolute;
     top: 20px;
     left: 20px;
@@ -48,6 +49,29 @@ ion-content {
   }
   .button-container ion-button {
     font-family: 'Yatra One', sans-serif;
+  }
+  .button-Home {
+  
+    cursor: pointer;
+    padding: 15px 40px 15px 40px;
+    border-radius: 10px;
+    border-style: double;
+    font-weight: 600;
+    background-image: linear-gradient(
+      rgb(54, 53, 53),
+      rgb(0, 0, 0),
+      rgb(54, 54, 54)
+    );
+    color: rgb(164, 164, 162);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color: rgb(0, 0, 0);
+    transition: 400ms;
+  }
+  .divboton{
+    display: flex;
+    justify-content: flex-start; /* Alinear al lado derecho */
+    align-items: center;
+    padding-left: 2rem;
   }
 
 

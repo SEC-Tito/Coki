@@ -9,7 +9,16 @@ ion-content {
     align-items: center;
     height: 100v;
   }
-  .button {
+  .logo {
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: auto;
+    z-index: 1;
+}
+  .button-Home {
   
     cursor: pointer;
     padding: 15px 40px 15px 40px;
@@ -26,9 +35,12 @@ ion-content {
     border-color: rgb(0, 0, 0);
     transition: 400ms;
   }
-
-
-
+  .divboton{
+    display: flex;
+    justify-content: flex-start; /* Alinear al lado derecho */
+    align-items: center;
+    padding-left: 2rem;
+  }
 
 ion-content {
     display: flex;
